@@ -1,0 +1,16 @@
+*{margin:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#fefcf8;line-height:1.6}
+.hero{background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://placehold.co/1200x400);background-size:cover;background-position:center;color:white;padding:20px 20px 60px}
+.menu ul{list-style:none;padding-left:0;display:flex;gap:16px;justify-content:flex-end}
+a:link{color:#8c491a} a:visited{color:#643312} a:hover{color:#c67139} a:active{color:#402310}
+.menu a:link{color:white} .menu a:visited{color:#f9f4ed}
+.hero-text{text-align:center;margin-top:30px}
+.foto-profil{width:120px;height:120px;border-radius:50%;object-fit:cover;border:4px solid white}
+.kartu{background:white;border-radius:16px;border-left:8px solid #c67139;box-shadow:0 4px 12px rgba(0,0,0,0.1),0 2px 4px rgba(0,0,0,0.08);padding:20px;margin:20px auto;max-width:800px}
+table{width:100%;border-collapse:collapse;margin-top:10px}
+th,td{padding:10px;text-align:left;border-bottom:1px solid #eee}
+tbody tr:nth-child(even){background:#f9f4ed}
+.tombol{padding:10px 20px;border:none;background:#c67139;color:white;border-radius:8px;cursor:pointer}
+.tombol:hover{outline:2px solid #c67139;outline-offset:2px}
+.tombol:focus-visible{outline:3px solid #c67139;outline-offset:2px}
+footer{text-align:center;padding:30px}
